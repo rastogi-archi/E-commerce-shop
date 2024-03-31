@@ -15,3 +15,9 @@ hr {
   margin: auto;
   margin-top: 3px;
 }
+
+.footer_line {
+  border: 1px solid gray;
+  margin-left: 40px;
+  margin-right: 40px;
+}
