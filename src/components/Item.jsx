@@ -2,7 +2,7 @@ import React from 'react'
 
 const Item = (props) => {
     return (
-        <div className='font-[Roboto] sm:w-52 text-left'>
+        <div className='font-[Roboto] sm:w-52 text-left ml-2 mr-2'>
             <img src={props.image} alt="" className='h-24 sm:h-32 md:h-52 m-auto' />
             <p className='text-[6px] font-bold sm:text-xs text-gray-600'>{props.name}</p>
             <div className='flex gap-2 mt-1'>
