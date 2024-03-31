@@ -4,7 +4,7 @@ import hero_image from "/hero1.png";
 
 const Hero = () => {
     return (
-        <main className='h-80 bg-pink-200 mt-2 font-[Roboto] flex items-center justify-center'>
+        <main className='h-80 bg-gradient-to-b from-pink-200 to-white mt-2 font-[Roboto] flex items-center justify-center'>
             <div className='ml-2 sm:ml-32 md:ml-36 xl:ml-80'>
                 <p className='uppercase text-sm font-medium'>new arrivals only</p>
                 <div className='flex items-center  mt-[-20px] sm:mt-[-30px]'>

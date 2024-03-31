@@ -8,3 +8,10 @@ hr {
   margin: auto;
   margin-top: 3px;
 }
+
+.new_line {
+  border: 2px solid black;
+  width: 80px;
+  margin: auto;
+  margin-top: 3px;
+}
