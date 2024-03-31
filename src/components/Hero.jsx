@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
                 <p className='text-3xl font-bold mt-[-20px] md:text-5xl'>collections</p>
                 <p className='text-3xl font-bold md:text-5xl'>for everyone</p>
-                <button className='flex justify-center items-center rounded-3xl bg-red-500 p-1 w-40 mt-2 text-white '>Latest Collection <FaArrowRightLong /></button>
+                <button className='flex justify-center items-center rounded-3xl bg-red-500 p-1 w-40 mt-2 text-white gap-1'>Latest Collection <FaArrowRightLong /></button>
             </div>
             <div className='w-[40%]'>
                 <img src={hero_image} alt="" className='h-80 object-cover ml-2 md:h-96' />
