@@ -5,7 +5,7 @@ import hero_image from "/hero1.png";
 const Hero = () => {
     return (
         <main className='h-80 bg-pink-200 mt-2 font-[Roboto] flex items-center justify-center'>
-            <div className='ml-2 sm:ml-32'>
+            <div className='ml-2 sm:ml-32 md:ml-36 xl:ml-80'>
                 <p className='uppercase text-sm font-medium'>new arrivals only</p>
                 <div className='flex items-center  mt-[-20px] sm:mt-[-30px]'>
                     <p className=' text-3xl sm:text-4xl font-bold md:text-5xl'>new</p>

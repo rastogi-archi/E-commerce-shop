@@ -1,3 +1,10 @@
-hr{
+hr {
   border: 2px solid red;
+}
+
+.popular_line {
+  border: 2px solid black;
+  width: 134px;
+  margin: auto;
+  margin-top: 3px;
 }

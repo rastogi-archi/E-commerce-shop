@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className='flex justify-evenly sm:justify-around items-center font-[Roboto]'>
             <Link to='/'>
-                <div className='flex justify-center items-center uppercase font-semibold flex-col sm:flex-row'>
+                <div className='flex justify-center items-center uppercase font-semibold sm:flex-row flex-col'>
                     <img src="\logo.jpg" alt="SHOPPER" className='h-12 sm:h-16' />
                     <p className='text-xs sm:text-lg'>shopper</p>
                 </div>
