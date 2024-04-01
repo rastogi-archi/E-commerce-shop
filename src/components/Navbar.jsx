@@ -6,12 +6,10 @@ const Navbar = () => {
     const [menu, setMenu] = useState("shop")
     return (
         <nav className='flex justify-evenly sm:justify-around items-center font-[Roboto]'>
-            <Link to='/'>
-                <div className='flex justify-center items-center uppercase font-semibold sm:flex-row flex-col'>
-                    <img src="\logo.jpg" alt="SHOPPER" className='h-12 sm:h-16' />
-                    <p className='text-xs sm:text-lg'>shopper</p>
-                </div>
-            </Link>
+            <div className='flex justify-center items-center uppercase font-semibold sm:flex-row flex-col'>
+                <img src="\logo.jpg" alt="SHOPPER" className='h-12 sm:h-16' />
+                <p className='text-xs sm:text-lg'>shopper</p>
+            </div>
             <ul className='flex justify center space-x-2 sm:space-x-6 text-xs sm:text-sm md:text-lg'>
                 <li className='cursor-pointer' onClick={() => { setMenu("shop") }}><Link to="/">Shop</Link>{menu === "shop" ? <hr /> : <></>}</li>
                 <li className='cursor-pointer' onClick={() => { setMenu("men") }}><Link to="/men">Men</Link>{menu === "men" ? <hr /> : <></>}</li>
