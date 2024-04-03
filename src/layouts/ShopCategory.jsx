@@ -26,6 +26,9 @@ const ShopCategory = (props) => {
           }
         })}
       </div>
+      <div className='flex justify-center items-center m-10'>
+        <button className='bg-gray-200 p-2 rounded-3xl w-32 text-xs text-gray-600'>Explore More</button>
+      </div>
     </div>
   )
 }
