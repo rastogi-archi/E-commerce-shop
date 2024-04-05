@@ -1,7 +1,7 @@
-import image_1 from "/popular1.jpg";
-import image_2 from "/popular2.jpg";
-import image_3 from "/popular3.jpg";
-import image_4 from "/popular4.jpg";
+import image_1 from "/product_1.png";
+import image_2 from "/product_2.png";
+import image_3 from "/product_3.png";
+import image_4 from "/product_4.png";
 
 
 
