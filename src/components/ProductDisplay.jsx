@@ -6,7 +6,7 @@ const ProductDisplay = (props) => {
     const { product } = props;
     return (
         <div className='flex gap-4 sm:mb-3 mt-4 2xl:mt-10'>
-            <div className='flex w-[60%] sm:justify-center xl:mr-[-170px] 2xl:mr-[-550px]'>
+            <div className='flex w-[60%] sm:justify-center xl:mr-[-170px]'>
                 <div className='flex flex-col items-start ml-3 mt-5 gap-1'>
                     <img src={product.image} alt="" className='h-10 object-cover sm:h-20' />
                     <img src={product.image} alt="" className='h-10 object-cover sm:h-20' />
