@@ -21,3 +21,8 @@ hr {
   margin-left: 40px;
   margin-right: 40px;
 }
+
+.product_line{
+  border: 2px solid black;
+  width: 70px;
+}

@@ -29,7 +29,7 @@ const ProductDisplay = (props) => {
                 </div>
                 <div className='flex gap-3 text-gray-700 sm:mt-2'>
                     <div className='text-[12px] line-through sm:text-sm'>${product.old_price}</div>
-                    <div className='text-[12px] sm:text-sm'>${product.new_price}</div>
+                    <div className='text-[12px] sm:text-sm text-red-500'>${product.new_price}</div>
                 </div>
                 <div className='text-[10px] mt-1 sm:text-sm'>
                     A lightweight, usually knitted, pullover shirt, close-fitting and with a round necklineand short sleeves, worn as an undershirt or outer garment
